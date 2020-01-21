@@ -12,7 +12,6 @@
       width: 900px;
       height: 1200px;
       margin: 15px auto;
-      background-color: white;
   }
 
   header {
@@ -50,14 +49,16 @@
       height: 55%;
   }
 
-  .RSS {
-
-  }
-
-  .post {
-
-  }
-
   .widget {
+      background-color: white;
+  }
 
+  footer {
+      height: 10%;
+      background-color: white;
+  }
+
+  .high {
+      height: 25%;
+      border-bottom: 2px solid grey;
   }
