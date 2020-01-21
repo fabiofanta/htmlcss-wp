@@ -23,4 +23,41 @@
 
   nav {
       background-color: lightgray;
+      border-bottom: 15px;
+  }
+
+  main::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .column1 {
+      float: left;
+      width: 10%;
+      height: 25%;
+  }
+
+  .column2 {
+      float: left;
+      width: 60%;
+      height: 20%;
+  }
+
+  .column3 {
+      float: left;
+      width: 30%;
+      height: 55%;
+  }
+
+  .RSS {
+
+  }
+
+  .post {
+
+  }
+
+  .widget {
+
   }
