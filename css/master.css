@@ -13,5 +13,14 @@
       height: 1200px;
       margin: 15px auto;
       background-color: white;
+  }
 
+  header {
+      background-image: url("../img/Forest.png");
+      height: 20%;
+      background-size: cover;
+  }
+
+  nav {
+      background-color: lightgray;
   }
