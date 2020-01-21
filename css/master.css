@@ -23,6 +23,7 @@
 
   nav {
       background-color: lightgray;
+      padding: 15px 25% 15px;
   }
 
   main {
@@ -88,10 +89,8 @@
       display: inline-block;
   }
 
-  .column .widget h2,p {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
+  .column .widget h2,.column .widget p {
+     padding: 20px;
 
   }
 
