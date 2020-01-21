@@ -16,13 +16,30 @@
   }
 
   header {
-      background-image: url("../img/Forest.png");
-      height: 20%;
-      background-size: cover;
+       height: 20%;
+       background-color: white;
+       padding: 10px;
   }
 
+   .background {
+      height: 100%;
+      background-image: url("../img/Forest.png");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+
+   .text {
+       margin: 0 auto;
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+   }
+
   nav {
-      background-color: lightgray;
+      background-color: gray;
       padding: 15px 25% 15px;
   }
 
@@ -101,6 +118,7 @@
   .high p {
       text-align: center;
       color: lightgray;
+      padding: 5px 2px 5px;
   }
 
   .fab {
@@ -113,3 +131,25 @@
   .low {
       text-align: center;
   }
+
+nav a {
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    background: rgba(0,0,0, 0.3);
+}
+
+.background :first-of-type {
+    color: white;
+}
+
+.name h1 {
+    border: 5px solid white;
+    font-size: 45px;
+}
+
+.description h2 {
+    padding-top: 20px;
+}
