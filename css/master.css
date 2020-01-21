@@ -70,7 +70,7 @@
 
   .high {
       height: 25%;
-      border-bottom: 2px solid grey;
+      border-bottom: 2px solid lightgrey;
   }
 
   .fas {
@@ -96,4 +96,20 @@
 
  .widget p {
       padding-top: 25px;
+  }
+
+  .high p {
+      text-align: center;
+      color: lightgray;
+  }
+
+  .fab {
+      padding: 30px 130px 30px;
+      font-size: 40px;
+      text-align: center;
+      color: lightgray;
+  }
+
+  .low {
+      text-align: center;
   }
